@@ -1,4 +1,4 @@
-echo "# testing" >> README.md
+echo "# balon" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
