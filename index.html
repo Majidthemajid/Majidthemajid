@@ -1,42 +1,46 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<html>
+  <title>CLONE FACEBOOK</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-
-	<form>
-	<span class="BorderTopButton"></span>
-	<span class="BorderLeftRigt"></span>
-	<h1>Login</h1>
-	<label>username</label><br>
-	<input input="text" id="username" placeholder="Username"><br>
-	<label>Password</label><br>
-	<input type="password" id="password" placeholder="********"><br>
-	<input type="checkbox" id="checkbox" onclick="hidepassword(show);">
-	<label>Showpassword</label><br>
-	<input type="Submit" id="Submit">
-<style>
-
-body{background-color:yellow
-
-
-</style>
-	<marquee width="100%" behavior="alternate" bgcolor="pink">
-<b>	<em>FUCK LOG IN NOW</em></b>
-	</marquee>
-	
-	
-	
-	
-	
-	
-	
-	<script>
-	
-		fucntion hidepassword(hide){
-		var x = document.getElementById()Id('password')
-		if (x. type == 'password'){
-		x. type= 'password'
-		
-	
-	</script>
-	</form>
+   <form action="/received_852135286027554.jpeg">
+      <h2>facebook</h2>
+  <label for="Email">Email</label><br>
+  <input type="text" name="email" id=""required placeholder="Email or Phone number"><br>
+  <label for="pwd">Password</label><br>
+  <input type="password" id="pwd" required placeholder="Password" ><br>
+  <input type="checkbox" id="chk">Show 
+  
+  <button type="submit" id="majid" >Log in</button>
+  <a href="/Majid.html">Forgot password?</a>
+  <button disabled id="jid">OR</button><br><br>
+ <button disabled id="jids">Create account</button>
+  
+  
+  <!-- Project -->
+  <script >
+     const pwd = document.getElementById("pwd");
+     const chk = document.getElementById("chk")
+     chk.onchange = function(e){
+        
+        pwd.type = chk.checked ? "text" : "password";
+        
+     }
+     
+     
+     
+  </script>
+</body>
+</html>

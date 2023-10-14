@@ -1,0 +1,47 @@
+.box{
+   width: auto;
+   background: lightgrey;
+   color: transparent;
+   height: 1px;
+   margin-top: ;
+  
+   
+}
+p{
+   text-align: center;
+   color: darkgray;
+   margin-top: 0;
+}
+input{
+   
+   margin: 10px 0;
+   width: 98%;
+   padding: 8px 0;
+   margin
+}
+button{
+  width: 168px;
+ padding: 10px 0;
+ border-radius:4px;
+ 
+}
+#jids{
+   
+   background: lightgrey;
+   font-size: 15px;
+   border: none;
+}
+#bobo{
+   
+   outline: none;
+   background: dodgerblue;
+   border: none;
+   color: white;
+   font-size: 15px;
+}
+h4{
+   text-align: center;
+   color: royalblue;
+   
+}
+
